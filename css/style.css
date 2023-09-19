@@ -1,0 +1,137 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* background-color: aqua; */
+    margin: auto;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px 5px;
+}
+
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.nav-section ul {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    border-right: 1px solid grey;
+    padding-right: 20px;
+}
+
+.nav-section ul li {
+    list-style: none;
+}
+
+.Assistance-section {
+    display: flex;
+    column-gap: 10px;
+    /* align-items: center; */
+}
+
+.Assistance-text {
+    font-size: 14px;
+    height: 18px;
+}
+
+
+main {
+    /* background-color: blueviolet; */
+    height: 88vh;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .container {
+    /* background-color: aqua; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+main .container .left-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .container .left-section .content {
+    width: 80%;
+}
+
+main .container .right-section {
+    width: 50%;
+    height: 100%;
+    background-image: url(/img/Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main .container .right-section .service-icon {
+    position: absolute;
+    left: -15%;
+    top: 
+    0;
+}
+
+main .container .right-section .rating-icon {
+    position: absolute;
+    right: -15%;
+    bottom: 0;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 25%;
+    padding: 12px;
+    background-color: #FF6433;
+    color: #ffff;
+    border-radius: 5px;
+    border: #ffff;
+}
+
+
+.open-session {
+    display: flex;
+    align-items: center;
+    /* column-gap: 5px; */
+    margin-top: 30px;
+}
+
+.open-session .open-icon {
+    width: 30.94px;
+    /* height: 30.94px; */
+    margin-top: 5px;
+}
+
+.open-session .open-icon img {
+    width: 20px;
+}
+
+.open-session .open-text {
+
+    color: #939191;
+}
+
+
