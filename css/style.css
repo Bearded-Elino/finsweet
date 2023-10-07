@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    font-family: 'Manrope', sans-serif;
 }
 
 header {
@@ -50,19 +50,20 @@ header {
 
 main {
     /* background-color: blueviolet; */
-    height: 88vh;
+    height: 100vh;
     margin: auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
+
 main .container {
     /* background-color: aqua; */
     height: 80%;
-    width: 100%;
+    width: 80%;
     display: flex;
 }
 
@@ -76,6 +77,11 @@ main .container .left-section {
 
 main .container .left-section .content {
     width: 80%;
+}
+
+main .container .left-section .content h2 {
+    width: 100%;
+    font-size: 40px;
 }
 
 main .container .right-section {
@@ -132,6 +138,291 @@ main .container .right-section .rating-icon {
 .open-session .open-text {
 
     color: #939191;
+}
+
+
+#Quote-section {
+    background-color:#E2E6E9;
+    height: 88vh;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#Quote-section .container {
+
+    height: 80%;
+    width: 80%;
+    display: flex;
+
+}
+
+#Quote-section .container .left-quote-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Quote-section .container .left-quote-section h3 {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.convenience-container {
+    display: flex;
+}
+
+.left-quote-section .convenience-container .convenience-text {
+    margin-top: 3px;
+}
+
+.left-quote-section .convenience-container {
+    padding: 20px;
+}
+
+
+
+.left-quote-section .convenience-container .convenience-text p {
+    width: 75%;
+}
+
+
+.About {
+    display: flex;
+    margin: 10px 0 0 52px;
+    column-gap: 10%;
+   
+}
+
+.more-pointer {
+
+    margin-top: 3px;
+}
+
+#Quote .container .right-quote-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-quote-section .right-quote-text h3 {
+    font-size: 38px;
+    font-weight: 550;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.right-quote-section .form-section {
+    margin-top: 30px;
+}
+
+.right-quote-section .form-section input {
+    padding: 20px;
+    width: 100%;
+    background-color: #ffff;
+    border: #ffff;
+    margin-bottom: 3px;
+}
+
+/* process-styling */
+
+#process-page {
+
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #FF6433; */
+    align-items: center;
+}
+
+#process-page .container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+}
+
+#process-page .left-process {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#process-page .left-process h3 {
+    font-size: 40px;
+    font-weight: 1000;
+    width: 70%;
+    /* margin-bottom: 20px; */
+} 
+
+#process-page .left-process p {
+    width: 70%;
+}
+
+#process-page .right-process {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.right-group1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    position: relative;
+    top: -15%; 
+}
+
+.right-line {
+
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.right-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-text h2 {
+    width: 100%;
+}
+
+.right-img {
+    padding: 5px;
+
+}
+
+.ball-3-img {
+    margin-bottom: 80px;
+}
+
+.ball-3-img .right-text {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ball-1-img {
+    margin-top: 10px;
+}
+/* offers-styling */
+
+#offers-section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #c5c2c2;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+
+#offers-section .container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#offers-section .content {
+    width: 100%;
+    text-align: center;
+}
+
+#offers-section .content .offers-cards {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    /* margin-top: 30px; */
+}
+
+#offers-section .content .offers-cards .card-box {
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+
+.card-box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    /* margin-top: 30px; */
+}
+
+#offers-section .content .offers-cards .card-box:hover {
+    cursor: pointer;
+    background-color:#FF6433;
+}
+
+#offers-section .content h5 {
+    font-size: 30px;
+    width: 100%;
+    font-weight: 600;
+}
+
+#more-services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5c2c2;
+}
+
+#more-services .container {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: flex-end;
+}
+
+#more-services .container .more-services-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+#more-services .service-text a {
+    text-decoration: none;
+    /* text-align: center; */
+    color: black;
+}
+
+#more-services .service-img {
+    align-items: center;
 }
 
 
